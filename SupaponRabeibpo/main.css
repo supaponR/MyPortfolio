@@ -26,6 +26,7 @@
 }
 #myNametext{
     font-weight: bolder;
+    margin-top: 13%;
 }
 #name{
     margin-top: 2%;
@@ -34,10 +35,14 @@
     text-align: center;
     font-size: 25pt;
 }
-#MyPic1{
+.MyPic1{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
-#ProgramSkill{
+.ProgramSkill{
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -45,12 +50,9 @@
     width: 80%;
 }
 #ArduinoIDE{
-    width: 60%;
+    width: 50%;
 }
-#MyInfo{
-    padding-top: 0%;
-    margin-top: 0%;
-}
+
 #contactHead{
     font-size: 20pt;
     padding-bottom: 10%;
@@ -117,6 +119,7 @@ hr{
     padding-left: 5%;
     font-size: 15pt;
 }
+
 /* end icon */
   /* About grid */
 .grid-container{
@@ -129,10 +132,11 @@ hr{
     font-size: 20px;
     background-color:white;
 }
-#headWeb{
+.headWeb{
     grid-column:1 / span 2 ;
+    text-align: left;
 }
-#headerButton{
+.headerButton{
     grid-column: 3 / span 4;
     text-align: right;
     padding-right: 5%;
@@ -142,18 +146,21 @@ hr{
 .Forhr{
     grid-column: 1 / span 4;
 }
-#header{
+.header{
     grid-column: 1 / span 4;
     margin-top: 0%;
     padding-top: 0%;
 }
-#myName{
+.myName{
     grid-column: 1 / span 2;
-}
-#Mypic{
     text-align: center;
+}
+
+.Mypic{
+    justify-content: flex;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 30%;
     grid-column: 3 / span 2;
 }
 .ProgramSkill{
@@ -210,6 +217,7 @@ hr{
 @media only screen and (max-width: 768px) {
     #supapon{
         padding-left: 0%;
+        text-align: center;
     }
     body{
         background-color: rgb(255, 255, 255);
@@ -219,11 +227,11 @@ hr{
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
 	}
-    #headWeb{
+    .headWeb{
         text-align: center;
         grid-column:1 / span 2 ;
     }
-	#headerButton{
+	.headerButton{
         grid-column: 1 / span 2;
         text-align: center;
         margin-bottom: 0%;
@@ -232,15 +240,15 @@ hr{
     .Forhr{
         grid-column: 1 / span 2;
     }
-    #header{
+    .header{
         grid-column: 1 / span 2;
         margin-top: 0%;
         padding-top: 0%;
     }
-    #myName{
+    .myName{
         grid-column: 1 / span 2;
     }
-    #Mypic{
+    .Mypic{
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -301,19 +309,16 @@ hr{
     #supapon{
         text-align: center ;
     }
-    body{
-        background-color: rgb(255, 255, 255);
-    }
 	.grid-container {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
 	}
-    #headWeb{
+    .headWeb{
         text-align: center;
         grid-column:1 / span 1 ;
     }
-	#headerButton{
+	.headerButton{
         grid-column: 1 / span 1;
         text-align: center;
         margin-bottom: 0%;
@@ -322,16 +327,16 @@ hr{
     .Forhr{
         grid-column: 1 / span 1;
     }
-    #header{
+    .header{
         grid-column: 1 / span 1;
         margin-top: 0%;
         padding-top: 0%;
     }
-    #myName{
+    .myName{
         padding-top:0%;
         grid-column: 1 / span 1;
     }
-    #Mypic{
+    .Mypic{
         text-align: center;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -553,13 +558,7 @@ hr{
         grid-column: 1 / span 1;
     }
 }
-image{
-    width: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-}
+
 
 #button{
     margin-right: 2%;
@@ -569,7 +568,12 @@ image{
     text-align: center;
 }
 
-
+image{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
