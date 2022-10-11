@@ -1,0 +1,575 @@
+#Project,#go{
+    border-radius: 10%;
+    width: 55px;
+    background-color:white;
+    text-align: center;
+}
+#HeadPortfolio{
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 5px;
+}
+#Myinfo{
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(108, 108, 108);
+}
+#myName{
+    padding-top: 10%;
+    text-align: center;
+    font-size: 19pt;
+}
+#myNametext{
+    font-weight: bolder;
+}
+#name{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 25pt;
+}
+#MyPic1{
+    width: 50%;
+}
+#ProgramSkill{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#UnityPic ,#AdobeAnimatePic {
+    width: 80%;
+}
+#ArduinoIDE{
+    width: 60%;
+}
+#MyInfo{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+#contactHead{
+    font-size: 20pt;
+    padding-bottom: 10%;
+}
+/* Link Ref */
+#ArduinoRef, #VisualStudioRef, #AdobeAnimateRef, #UnityRef{
+    padding-left: 2%;
+    margin-top: 0%;
+    text-align: left;
+    font-size: 6pt;
+}
+/* end ref */
+/* icon */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration:solid;
+    border-radius: 50%;
+    background: #000000;
+    color: rgb(255, 255, 255);
+  }
+  .fa-instagram {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #000000;
+    color: rgb(255, 255, 255);
+  }
+span{
+    font-size: 15pt;
+    font-weight: 20px;
+}
+a{
+    font-weight: bolder;
+}
+hr{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-color: rgb(49, 49, 49);
+}
+#Supapon{
+    padding-left: 5%;
+    font-size: 15pt;
+}
+/* end icon */
+  /* About grid */
+.grid-container{
+    font-family: "Courier New", Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 5px;
+}
+.grid-container > div{
+    font-size: 20px;
+    background-color:white;
+}
+#headWeb{
+    grid-column:1 / span 2 ;
+}
+#headerButton{
+    grid-column: 3 / span 4;
+    text-align: right;
+    padding-right: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.Forhr{
+    grid-column: 1 / span 4;
+}
+#header{
+    grid-column: 1 / span 4;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+#myName{
+    grid-column: 1 / span 2;
+}
+#Mypic{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    grid-column: 3 / span 2;
+}
+.ProgramSkill{
+    text-align: center;
+    grid-column: 1 / span 4;
+}
+#programskillText{
+    font-size: 20pt;
+    font-weight: bolder;
+}
+.skill_1{
+    text-align: center;
+    grid-column: 1 / span 1;
+}
+.skill_2{
+    text-align: center;
+    grid-column: 2 / span 1;
+}
+.skill_3{
+    text-align: center;
+    grid-column: 3 / span 1;
+}
+.skill_4{
+    text-align: center;
+    grid-column: 4 / span 1;
+}
+.infoContact{
+    font-size: 20pt;
+    font-weight:bolder;
+    text-align: center;
+    grid-column: 1 / span 4;
+}
+.s_1{
+    margin-top: 0%;
+    grid-column: 1 / span 1;
+}
+.s_2{
+    margin-top: 0%;
+    grid-column: 2 / span 1;
+}
+.s_3{
+    margin-top: 0%;
+    grid-column: 3 / span 1;
+}
+.s_4{
+    margin-top: 0%;
+    grid-column: 4 / span 1;
+}
+
+
+/* end grid */
+/* respond */
+/* 768 */
+@media only screen and (max-width: 768px) {
+    #supapon{
+        padding-left: 0%;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+	.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+	}
+    #headWeb{
+        text-align: center;
+        grid-column:1 / span 2 ;
+    }
+	#headerButton{
+        grid-column: 1 / span 2;
+        text-align: center;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .Forhr{
+        grid-column: 1 / span 2;
+    }
+    #header{
+        grid-column: 1 / span 2;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    #myName{
+        grid-column: 1 / span 2;
+    }
+    #Mypic{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        grid-column: 1 / span 2;
+    }
+    .ProgramSkill{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    #programskillText{
+        font-size: 20pt;
+        font-weight: bolder;
+    }
+    .skill_1{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    .skill_2{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    .skill_3{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    .skill_4{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    .infoContact{
+        font-size: 20pt;
+        font-weight:bolder;
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .s_1{
+        margin-top: 0%;
+        grid-column: 1 / span 2;
+    }
+    .s_2{
+        margin-top: 0%;
+        grid-column: 1 / span 2;
+    }
+    .s_3{
+        margin-top: 0%;
+        grid-column: 1 / span 2;
+    }
+    .s_4{
+        margin-top: 0%;
+        grid-column: 1 / span 2;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    #supapon{
+        text-align: center ;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+	.grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+	}
+    #headWeb{
+        text-align: center;
+        grid-column:1 / span 1 ;
+    }
+	#headerButton{
+        grid-column: 1 / span 1;
+        text-align: center;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .Forhr{
+        grid-column: 1 / span 1;
+    }
+    #header{
+        grid-column: 1 / span 1;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    #myName{
+        padding-top:0%;
+        grid-column: 1 / span 1;
+    }
+    #Mypic{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        grid-column: 1 / span 1;
+    }
+    .ProgramSkill{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    #programskillText{
+        font-size: 20pt;
+        font-weight: bolder;
+    }
+    .skill_1{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .skill_2{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .skill_3{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .skill_4{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .infoContact{
+        font-size: 20pt;
+        font-weight:bolder;
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+    .s_1{
+        margin-top: 0%;
+        grid-column: 1 / span 1;
+    }
+    .s_2{
+        margin-top: 0%;
+        grid-column: 1 / span 1;
+    }
+    .s_3{
+        margin-top: 0%;
+        grid-column: 1 / span 1;
+    }
+    .s_4{
+        margin-top: 0%;
+        grid-column: 1 / span 1;
+    }
+}
+
+/* Page Project */
+#HeadProject{
+    text-align: center;
+    margin-bottom:0%;
+}
+#HeadMyProject{
+    padding-left: 5%;
+    font-size: 15pt;
+}
+#MyProject{
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    font-size: 10pt;
+    color: rgb(108, 108, 108);
+}
+.imagPic1{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+/* .pic_Pro{
+    
+
+} */
+#AR{
+    font-size: 20pt;
+    font-weight: bolder;
+    text-align: center;
+}
+#Detail{
+    font-size: 10pt;
+}
+
+
+
+
+/* grid2 */
+.grid-container-Page{
+    font-family: "Courier New", Courier, monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.grid-containe-Page > div{
+    border: 1px solid rgb(253, 204, 204);
+    font-size: 20px;
+    background-color:white;
+}
+.ForhrPage{
+    grid-column: 1 / span 3;
+}
+.headWebProject{
+    text-align: left;
+    grid-column: 1 / span 2 ;
+}
+.headerButtonProject{
+    grid-column: 3 / span 1;
+    text-align: right;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+.headerProject{
+    grid-column: 1 / span 3;
+}
+.TextInfo{
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-column: 1 / span 3;
+}
+.pic_1{
+    text-align: center;
+    grid-column: 1 / span 3;
+}
+.LinkGooglePlay{
+    text-align: center;
+    grid-column: 1 / span 3;
+}
+.ProjectPic_1{
+    text-align: center;
+    width: 100px;
+}
+
+/* 768 */
+@media only screen and (max-width: 768px) {
+    #supapon{
+        padding-left: 0%;
+    }
+	.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+	}
+    .ForhrPage{
+        grid-column: 1 / span 2;
+    }
+    .headWebProject{
+        text-align: left;
+        grid-column: 1 / span 1 ;
+    }
+    .headerButtonProject{
+        grid-column: 2 / span 1;
+        text-align: right;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+    .headerProject{
+        grid-column: 1 / span 2;
+    }
+    .TextInfo{
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-column: 1 / span 2;
+    }
+    .pic_1{
+        justify-content: center;
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    .LinkGooglePlay{
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+
+}
+
+/* phone 500px */
+@media only screen and (max-width: 500px) {
+	.grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+	}
+    .ForhrPage{
+        margin-left: 0%;
+        padding-left: 0%;
+        grid-column: 1 / span 1;
+    }
+    .headWebProject{
+        text-align: center;
+        grid-column: 1 / span 1 ;
+    }
+    .headerButtonProject{
+        padding-left: 2%;
+        grid-column: 1 / span 1;
+        text-align: center;
+    }
+    .headerProject{
+        grid-column: 1 / span 1;
+    }
+    .TextInfo{
+        padding-left: 20%;
+        padding-right: 20%;
+        grid-column: 1 / span 1;
+    }
+    .pic_1{
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-column: 1 / span 1;
+    }
+    .LinkGooglePlay{
+        text-align: center;
+        grid-column: 1 / span 1;
+    }
+}
+image{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#button{
+    margin-right: 2%;
+    border-radius: 10%;
+    width: 80px;
+    background-color:white;
+    text-align: center;
+}
+
+
+
+
+

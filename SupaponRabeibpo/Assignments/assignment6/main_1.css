@@ -1,0 +1,91 @@
+form{
+    background-color: rgb(255, 188, 247);
+}
+body{
+    padding-top: 20px;
+    background-color:rgb(242, 219, 219)
+}
+legend{
+    font-size: 30pt;
+}
+
+p{
+    font-size: 20pt;
+}
+
+#username, #email, #bday, #firstname, #lastname{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+#bday{
+    width: 16%;
+}
+#passwordMain{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+#passwordRetype{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+
+
+
+fieldset{
+    padding-left: 50px;
+}
+
+#submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    width: 5%;
+    margin-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+
+#reset{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    width: 5%;
+    margin-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 35px;
+}
+
+#errormsg{
+    color: brown;
+    font-size: 20pt;
+    padding-top: 20%;
+
+}
+
+
+
+

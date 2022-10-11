@@ -1,0 +1,83 @@
+body{
+    background-color: aliceblue;
+    color: #2c2929;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+textarea{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(152, 91, 202);
+    padding: 2px;
+    color: rgb(101, 59, 0);
+}
+.pic{
+    text-align: center;
+}
+a:link{
+	color: #a7a22d; 
+}  */
+/* visited link */
+a:visited{
+	color: #80cc80; 
+} 
+/* mouse over link */  
+a:hover{ 
+	color: #ff0088; 
+} 
+#snootLinkRef{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 8pt;
+    color: #767676;
+}
+#picSnoot{
+    width: 25%;
+    border: 5px dotted rgb(220, 108, 203);
+    border-radius: 1000px;
+    vertical-align: middle;
+
+    border: radius 50%;;
+    width: 400px;
+}
+
+#topic1 ,#comment1 , #comment2{
+    font-size: 15pt;
+    background-color: rgb(255, 202, 155);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.theBody{
+    padding-top: 20px;
+    padding-bottom: 300px;
+    background-color:   rgb(230, 255, 148);
+}
+
+.TextBox{
+    border-color: blue;
+}
+
+button{
+    width: 50px;
+    background-color: aquamarine;
+    font-size: 10pt;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
